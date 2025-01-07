@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Meta Tags</title>
+		<script type="text/javascript" src="popup.js"></script>
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<style>
+			body {
+				background-color: white;
+			}
+			#score-circle {
+    width: 200px;
+    height: 200px;
+    background-color: green; /* or any other desired color */
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#score-circle span {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    z-index: 2;
+}
+
+#score-circle .percentage {
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+}
+			/* #score-circle {
+				width: 200px;
+				height: 200px;
+				background-color: #ccc;
+				border-radius: 50%;
+				margin: 20px auto;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				position: relative;
+			}
+			#score-circle::before {
+				content: "";
+				width: 80%;
+				height: 80%;
+				background-color: white;
+				border-radius: 50%;
+				position: absolute;
+				z-index: 1;
+			}
+			#score-circle span {
+				font-size: 48px;
+				font-weight: bold;
+				color: white;
+				z-index: 2;
+			}
+			#score-circle .percentage {
+				font-size: 24px;
+				font-weight: bold;
+				position: absolute;
+				bottom: -40px;
+				right: 0;
+			} */
+			#score {
+				color:black !important;
+			}
+			.unknown {
+				background-color: grey !important;
+			}
+			.green {
+				background-color: green !important;
+			}
+			.yellow {
+				background-color: yellow !important;
+			}
+			.red {
+				background-color: red !important;
+			}
+			.explanation-title,
+			.alternative-title {
+				text-align: center;
+				font-size: 30px;
+				display: block;
+			}
+			.explanation-p {
+				font-size: 15px;
+				margin-left: 5%;
+				margin-right: 5%;
+			}
+			.link {
+				font-size: 30px;
+			}
+		</style>
+	</head>
